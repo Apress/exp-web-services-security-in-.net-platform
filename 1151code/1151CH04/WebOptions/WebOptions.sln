@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebOptions", "WebOptions.csproj", "{387F558C-9B60-4A28-A582-2B9685C37252}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{387F558C-9B60-4A28-A582-2B9685C37252}.Debug.ActiveCfg = Debug|.NET
+		{387F558C-9B60-4A28-A582-2B9685C37252}.Debug.Build.0 = Debug|.NET
+		{387F558C-9B60-4A28-A582-2B9685C37252}.Release.ActiveCfg = Release|.NET
+		{387F558C-9B60-4A28-A582-2B9685C37252}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

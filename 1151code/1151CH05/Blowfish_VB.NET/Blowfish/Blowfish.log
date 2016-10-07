@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "Blowfish.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "Blowfish"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "Blowfish.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\Project1.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\Blowfish.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\frmBlowfish.frm"
+        NewPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\Project1.NET\frmBlowfish.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "cmdSetKey_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object cv_BytesFromHex().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object cv_BytesFromString().</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\basBlfArrays.txt"
+        NewPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\Project1.NET\basBlfArrays.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "blf_LoadArrays" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object vntA.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1041"
+                PME = "array"
+            >Array has a new behavior.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object vntA().</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\basBlowfish.txt"
+        NewPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\Project1.NET\basBlowfish.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\basUnsignedWord.txt"
+        NewPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\Project1.NET\basUnsignedWord.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\basRadix64.txt"
+        NewPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\Project1.NET\basRadix64.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "EncodeStr64" >
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >Constant vbUnicode was not upgraded.</Issue>
+        </Section>
+        <Section Name = "DecodeStr64" >
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >Constant vbUnicode was not upgraded.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\basBlowfishFns.txt"
+        NewPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\Project1.NET\basBlowfishFns.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "blf_StringEnc" >
+            <Issue
+                Type = "ToDo"
+                Number = "1059"
+            >Code was upgraded to use System.Text.UnicodeEncoding.Unicode.GetBytes() which may not have the same behavior.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbFromUnicode"
+            >Constant vbFromUnicode was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >Constant vbUnicode was not upgraded.</Issue>
+        </Section>
+        <Section Name = "blf_StringDec" >
+            <Issue
+                Type = "ToDo"
+                Number = "1059"
+            >Code was upgraded to use System.Text.UnicodeEncoding.Unicode.GetBytes() which may not have the same behavior.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbFromUnicode"
+            >Constant vbFromUnicode was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >Constant vbUnicode was not upgraded.</Issue>
+        </Section>
+        <Section Name = "blf_StringRaw" >
+            <Issue
+                Type = "ToDo"
+                Number = "1059"
+            >Code was upgraded to use System.Text.UnicodeEncoding.Unicode.GetBytes() which may not have the same behavior.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbFromUnicode"
+            >Constant vbFromUnicode was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >Constant vbUnicode was not upgraded.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\basConvert.txt"
+        NewPath = "C:\Documents and Settings\Achesot\Desktop\BlowfishVB_5\Project1.NET\basConvert.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "cv_BytesFromHex" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object cv_BytesFromHex.</Issue>
+        </Section>
+        <Section Name = "cv_BytesFromString" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object cv_BytesFromString.</Issue>
+        </Section>
+        <Section Name = "cv_WordsFromHex" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object cv_WordsFromHex.</Issue>
+        </Section>
+        <Section Name = "cv_HexFromWords" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                PME = "Hex"
+            >Couldn't resolve default property of object aWords().</Issue>
+        </Section>
+        <Section Name = "HexFromByte" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object x.</Issue>
+        </Section>
+        <Section Name = "testBytesHex" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object cv_BytesFromHex().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object cv_BytesFromString().</Issue>
+        </Section>
+        <Section Name = "testWordsHex" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object aWords.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object cv_WordsFromHex().</Issue>
+        </Section>
+    </File>
+</UpgradeLog>
+

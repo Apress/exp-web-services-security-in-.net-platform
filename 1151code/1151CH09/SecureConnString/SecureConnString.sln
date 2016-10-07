@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistryWebApp", "http://localhost/RegistryWebApp/RegistryWebApp.csproj", "{F4ECA538-676E-4C5E-A215-33F4C6B9768B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureConnString", "SecureConnString\SecureConnString.csproj", "{3B0F287D-B979-4F15-AEA7-6AC9FD00F29D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configurator", "Configurator\Configurator.csproj", "{B688CAAD-3B07-4615-9D8E-F98762D05C71}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F4ECA538-676E-4C5E-A215-33F4C6B9768B}.Debug.ActiveCfg = Debug|.NET
+		{F4ECA538-676E-4C5E-A215-33F4C6B9768B}.Debug.Build.0 = Debug|.NET
+		{F4ECA538-676E-4C5E-A215-33F4C6B9768B}.Release.ActiveCfg = Release|.NET
+		{F4ECA538-676E-4C5E-A215-33F4C6B9768B}.Release.Build.0 = Release|.NET
+		{3B0F287D-B979-4F15-AEA7-6AC9FD00F29D}.Debug.ActiveCfg = Debug|.NET
+		{3B0F287D-B979-4F15-AEA7-6AC9FD00F29D}.Debug.Build.0 = Debug|.NET
+		{3B0F287D-B979-4F15-AEA7-6AC9FD00F29D}.Release.ActiveCfg = Release|.NET
+		{3B0F287D-B979-4F15-AEA7-6AC9FD00F29D}.Release.Build.0 = Release|.NET
+		{B688CAAD-3B07-4615-9D8E-F98762D05C71}.Debug.ActiveCfg = Debug|.NET
+		{B688CAAD-3B07-4615-9D8E-F98762D05C71}.Debug.Build.0 = Debug|.NET
+		{B688CAAD-3B07-4615-9D8E-F98762D05C71}.Release.ActiveCfg = Release|.NET
+		{B688CAAD-3B07-4615-9D8E-F98762D05C71}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

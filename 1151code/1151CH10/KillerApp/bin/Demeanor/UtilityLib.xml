@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DemeanorReport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.wiseowl.com/Schemas/DemeanorReport.xsd">
+  <ObfuscationOptions xmlns="">
+    <InputAssembly>UtilityLib.dll</InputAssembly>
+    <OutputDirectory>C:\dev\books\Security Book\1151CH10-ME\Copy of code\KillerApp\bin\Demeanor</OutputDirectory>
+    <ReportFile>UtilityLib.xml</ReportFile>
+    <All>false</All>
+    <InSitu>false</InSitu>
+    <NoLogo>true</NoLogo>
+    <NoTypes>false</NoTypes>
+    <NoFields>false</NoFields>
+    <NoMethods>false</NoMethods>
+    <NoParameters>false</NoParameters>
+    <NoEnumerations>false</NoEnumerations>
+    <NoProperties>false</NoProperties>
+    <NoEvents>false</NoEvents>
+    <NoResources>false</NoResources>
+    <NoSerializable>false</NoSerializable>
+    <ForceParameters>false</ForceParameters>
+    <SatelliteAssemblies>false</SatelliteAssemblies>
+    <EntireApplication>true</EntireApplication>
+    <Verbose>true</Verbose>
+    <EncryptStrings>true</EncryptStrings>
+    <DoReport>true</DoReport>
+    <TypeAndMemberExclusions />
+    <ExcludeRegularExpressions />
+    <ExcludedAssemblies />
+    <AdditionalAssemblies />
+    <SatelliteAssemblyCultures />
+  </ObfuscationOptions>
+  <Assemblies xmlns="">
+    <Assembly>
+      <FullName>UtilityLib, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa52a713a2349600</FullName>
+      <Modules>
+        <Module>
+          <Name>UtilityLib.dll</Name>
+          <TypeMappings>
+            <TopLevelType>
+              <Name>&lt;Module&gt;</Name>
+              <NewName>&lt;Module&gt;</NewName>
+              <Visibility>notpublic</Visibility>
+            </TopLevelType>
+            <TopLevelType>
+              <Name>UtilityLib.Class1</Name>
+              <NewName>UtilityLib.Class1</NewName>
+              <Method>
+                <Original>
+                  <Name>.ctor</Name>
+                  <Signature>void .ctor ()</Signature>
+                  <Accessibility>public</Accessibility>
+                </Original>
+                <Obfuscated>
+                  <Name>.ctor</Name>
+                  <Signature>void .ctor ()</Signature>
+                  <Accessibility>public</Accessibility>
+                </Obfuscated>
+              </Method>
+              <Visibility>public</Visibility>
+            </TopLevelType>
+            <TopLevelType>
+              <Name>a</Name>
+              <NewName>a</NewName>
+              <Method>
+                <Original>
+                  <Name>.ctor</Name>
+                  <Signature>void .ctor ()</Signature>
+                  <Accessibility>private</Accessibility>
+                </Original>
+                <Obfuscated>
+                  <Name>.ctor</Name>
+                  <Signature>void .ctor ()</Signature>
+                  <Accessibility>private</Accessibility>
+                </Obfuscated>
+              </Method>
+              <Method>
+                <Original>
+                  <Name>a</Name>
+                  <Signature>static string a (string)</Signature>
+                  <Accessibility>compiler-controlled</Accessibility>
+                </Original>
+                <Obfuscated>
+                  <Name>a</Name>
+                  <Signature>static string a (string)</Signature>
+                  <Accessibility>compiler-controlled</Accessibility>
+                </Obfuscated>
+              </Method>
+              <Visibility>notpublic</Visibility>
+            </TopLevelType>
+          </TypeMappings>
+          <ManagedResources />
+        </Module>
+      </Modules>
+    </Assembly>
+  </Assemblies>
+</DemeanorReport>

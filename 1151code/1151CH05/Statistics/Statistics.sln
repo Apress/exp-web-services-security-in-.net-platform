@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statistics", "Statistics\Statistics.csproj", "{95D730A5-14BB-4D85-9915-2B3D2306D8BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RndTest", "RndTest\RndTest.csproj", "{0579E977-9D48-4A02-B19D-59181EE3DA1A}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = \u0022$/WiseOwl.Statistics\u0022,\u0020UEAAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:SourceSafe
+		CanCheckoutShared = false
+		SolutionUniqueID = {764EF5AF-614F-4E0F-8AAE-78B661804798}
+		SccProjectUniqueName1 = Statistics\\Statistics.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = Statistics\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{95D730A5-14BB-4D85-9915-2B3D2306D8BD}.Debug.ActiveCfg = Debug|.NET
+		{95D730A5-14BB-4D85-9915-2B3D2306D8BD}.Debug.Build.0 = Debug|.NET
+		{95D730A5-14BB-4D85-9915-2B3D2306D8BD}.Release.ActiveCfg = Release|.NET
+		{95D730A5-14BB-4D85-9915-2B3D2306D8BD}.Release.Build.0 = Release|.NET
+		{0579E977-9D48-4A02-B19D-59181EE3DA1A}.Debug.ActiveCfg = Debug|.NET
+		{0579E977-9D48-4A02-B19D-59181EE3DA1A}.Debug.Build.0 = Debug|.NET
+		{0579E977-9D48-4A02-B19D-59181EE3DA1A}.Release.ActiveCfg = Release|.NET
+		{0579E977-9D48-4A02-B19D-59181EE3DA1A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

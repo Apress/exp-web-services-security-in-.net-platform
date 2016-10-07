@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsAuthDB", "http://localhost/FormsAuthDB/FormsAuthDB.csproj", "{D298C027-97E4-403D-B1D3-129DD4E8A11B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D298C027-97E4-403D-B1D3-129DD4E8A11B}.Debug.ActiveCfg = Debug|.NET
+		{D298C027-97E4-403D-B1D3-129DD4E8A11B}.Debug.Build.0 = Debug|.NET
+		{D298C027-97E4-403D-B1D3-129DD4E8A11B}.Release.ActiveCfg = Release|.NET
+		{D298C027-97E4-403D-B1D3-129DD4E8A11B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

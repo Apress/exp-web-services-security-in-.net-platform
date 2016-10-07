@@ -1,0 +1,7 @@
+; xaspfilter.def : declares the module parameters for the DLL.
+
+LIBRARY	     "xaspfilter"
+
+EXPORTS
+	HttpFilterProc
+	GetFilterVersion

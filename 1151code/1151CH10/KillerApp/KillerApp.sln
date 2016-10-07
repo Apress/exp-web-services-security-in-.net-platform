@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "KillerApp", "KillerApp.vbproj", "{949BC3AB-7D5A-4AEF-930F-E51C83439DDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityLib", "..\UtilityLib\UtilityLib.csproj", "{BD8631B0-7F61-493F-9007-A9E5556D0C37}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{949BC3AB-7D5A-4AEF-930F-E51C83439DDD}.Debug.ActiveCfg = Debug|.NET
+		{949BC3AB-7D5A-4AEF-930F-E51C83439DDD}.Debug.Build.0 = Debug|.NET
+		{949BC3AB-7D5A-4AEF-930F-E51C83439DDD}.Release.ActiveCfg = Release|.NET
+		{949BC3AB-7D5A-4AEF-930F-E51C83439DDD}.Release.Build.0 = Release|.NET
+		{BD8631B0-7F61-493F-9007-A9E5556D0C37}.Debug.ActiveCfg = Debug|.NET
+		{BD8631B0-7F61-493F-9007-A9E5556D0C37}.Debug.Build.0 = Debug|.NET
+		{BD8631B0-7F61-493F-9007-A9E5556D0C37}.Release.ActiveCfg = Release|.NET
+		{BD8631B0-7F61-493F-9007-A9E5556D0C37}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

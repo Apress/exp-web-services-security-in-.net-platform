@@ -1,0 +1,103 @@
+
+03/02/19 - v0.27
+
+- fixed in bug Blowfish class constructor, once Encrypt instead of 
+  BaseEncrypt got called, leading to noncompatible CBC encryption
+  results
+
+02/09/20 - v0.26
+
+- fixed bug in the weak key check
+
+02/09/19 - v0.25
+
+- added weak key property to the Blowfish class
+- for zero padding, no more extra block is when data fits in a block 
+- added comments to BlowfishAlgorithmTest
+- CBC IV doesn't get generated anymore in BlowfishAlgorithmTest for ECB
+
+02/09/17 - v0.24
+
+- reverse padding during decryption wasn't correct for PaddingMode.Zeros
+- BlowfishAlgorithmTest was set to the AES algorithm by default
+
+02/09/16 - v0.23
+
+- bug in the extended BlowfishAlgorithm constructor (key and IV 
+  checks against null were reversed)
+
+02/09/09 - v0.22
+
+- BlowfishCBC was broken, the key setup in the constructor used the
+  inherited Encrypt() method; fixed by introducing the BaseEncrypt()
+  method, since there is no(?) other way in C#
+  
+02/08/27 - v0.21
+
+- adjusted BlowfishAlgorithm to strip off padding data automatically 
+  when it runs in PKCS7 mode
+- made exceptions descriptive (in BlowfishAlgorithm)
+  
+02/08/26 - v0.20
+
+- added test vectors from the official document on the Counterpane
+  website to the test project
+- all of the Encrypt() and Decrypt() methods now return the number 
+  of blocks which were processed
+- added wrapper which implements the .NET framework class 
+  SymmetricAlgorithm, so Blowfish can now be used with standard
+  interfaces; provided is also a test case for it
+- changed the project name from "Blowfish for C#" to Blowfish.NET
+
+02/08/21 - v0.13
+
+- bug: hiding the methods in BlowfishCBC with the new modifier 
+  caused the CBC code to use the ECB methods; all of the self 
+  referencial code was removed
+- simplified the BlowfishCBC constructor code
+- removed the makefile, added a Visual Studio solution instead
+
+02/02/16 - v0.12
+
+- minimal speedup in the final swap parts of the cipher
+- padding in BlowfishSimple is now done according to RFC 2630,
+  yet still backwards compatibe to output of older versions 
+- renamed BlowfishCbc class to BlowfishCBC
+- all void class functions now return a self reference instead
+- for clarity some methods are now declared as new
+- namespaced the module as Blowfish_NET
+- added a makefile to build the assembly and the test program
+
+01/06/28 - v0.11
+
+- increased the speed by 26% (optimized code, thanks go to the 
+  MS C# team and Dr GUI)
+
+01/06/21 - v0.10
+
+- sources converted to .NET Beta 2, they won't compile under 
+  Beta 1 anymore (changes made only in BlowfishSimple.cs,
+  output should be compatible to the old version)
+
+01/06/07 - v0.09
+
+- adjusted the benchmark
+- some typos in the comments
+
+01/05/20 - v0.08
+
+- fixed ugly bug in Blowfish.Encrypt() and Blowfish.Decrypt(),
+  using start indexes other than zero caused a crash
+- some documentation issues were solved
+- new and powerful BlowfishSimple class
+
+01/05/14 - v0.05
+
+- new BlowfishCbc class for encryption/decryption in CBC mode
+- XML documentation comments for the whole source code
+- some methods in the class Blowfish became virtual
+- extended BlowfishTest
+
+01/05/12 - v0.01
+
+(first release)
